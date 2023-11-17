@@ -115,12 +115,12 @@ address.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.</br>
+  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.<br>
   {{page.address2}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude2}}&mlon={{page.longitude2}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latitude2}},{{page.longitude2}}">Google Maps</a>.</br>
+  <a href="//maps.google.com/maps?q={{page.latitude2}},{{page.longitude2}}">Google Maps</a>.
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
