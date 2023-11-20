@@ -5,6 +5,7 @@
 
 {% include install_instructions/shell.html %}
 {% include install_instructions/git.html %}
+{% comment %}
 {% include install_instructions/editor.html %}
 
 {% if site.flavor == "r" %}
@@ -17,6 +18,7 @@
 {% else %}
 {% include warning-flavor.html %}
 {% endif %}
+{% endcomment %}
 
 {% comment %}
 The following setup instructions are commented out because Carpentries workshops

@@ -19,7 +19,7 @@ enddate: 2023-12-19        # machine-readable end date for the workshop in YYYY-
 instructor: ["Becky Smith", "Peter Cock"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: []     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["Becky.Smith@hutton.ac.uk","Peter.Cock@hutton.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: https://pad.carpentries.org/2023-12-18-JHI  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 # eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -161,7 +161,7 @@ Modify the block below if there are any special requirements.
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have installed the required software packages on, or have administrative privileges on.
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
@@ -248,8 +248,8 @@ Edit the text to match who can attend the workshop. For instance:
   for more information
 {% endcomment %}
 <p id="who-can-attend">
-    <strong>Who can attend?:</strong>
-    This workshop is open to affiliates of the James Hutton Group
+  <strong>Who can attend?:</strong>
+  This workshop is open to affiliates of the James Hutton Group
 </p>
 
 
